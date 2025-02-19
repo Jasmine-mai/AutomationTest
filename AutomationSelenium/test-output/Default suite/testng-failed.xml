@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.TS_PracticeLocateElement">
+      <class name="automation.testsuite.Day12">
         <methods>
-          <include name="locateByName"/>
           <include name="openBrowserTest"/>
+          <include name="clickRadioButton"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- automation.testsuite.TS_PracticeLocateElement -->
+      </class> <!-- automation.testsuite.Day12 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
