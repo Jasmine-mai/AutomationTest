@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-19T13:50:53 ICT" name="Default suite" finished-at="2025-02-19T13:51:24 ICT" duration-ms="30954">
+  <suite started-at="2025-02-25T21:13:03 ICT" name="Default suite" finished-at="2025-02-25T21:13:11 ICT" duration-ms="7966">
     <groups>
     </groups>
-    <test started-at="2025-02-19T13:50:53 ICT" name="Default test" finished-at="2025-02-19T13:51:24 ICT" duration-ms="30954">
-      <class name="automation.testsuite.HomeWork_day12">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.HomeWork_day12@72a7c7e0]" started-at="2025-02-19T13:50:53 ICT" name="openBrowser" finished-at="2025-02-19T13:51:20 ICT" duration-ms="26950" status="PASS">
+    <test started-at="2025-02-25T21:13:03 ICT" name="Default test" finished-at="2025-02-25T21:13:11 ICT" duration-ms="7966">
+      <class name="automation.testsuite.HomeWork_day13">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:automation.testsuite.HomeWork_day13@2667f029]" started-at="2025-02-25T21:13:03 ICT" name="OpenBrowser" finished-at="2025-02-25T21:13:09 ICT" duration-ms="5640" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="chooseAngolaOption()[pri:0, instance:automation.testsuite.HomeWork_day12@72a7c7e0]" started-at="2025-02-19T13:51:20 ICT" name="chooseAngolaOption" finished-at="2025-02-19T13:51:24 ICT" duration-ms="3986" status="PASS">
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="loginSuccessfully()[pri:0, instance:automation.testsuite.HomeWork_day13@2667f029]" started-at="2025-02-25T21:13:09 ICT" name="loginSuccessfully" finished-at="2025-02-25T21:13:10 ICT" duration-ms="1775" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chooseAngolaOption -->
-      </class> <!-- automation.testsuite.HomeWork_day12 -->
+        </test-method> <!-- loginSuccessfully -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.HomeWork_day13@2667f029]" started-at="2025-02-25T21:13:10 ICT" name="closeBrowser" finished-at="2025-02-25T21:13:11 ICT" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.HomeWork_day13 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
