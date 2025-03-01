@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.HomeWork_day13">
+      <class name="automation.testsuite.Day14_BTVN_ALADA_Test">
         <methods>
+          <include name="EditPasswordFunction"/>
+          <include name="closeBrowser"/>
           <include name="OpenBrowser"/>
-          <include name="loginFail_Incorrect_Email_Password"/>
-          <include name="loginFail_IncorrectPassword"/>
         </methods>
-      </class> <!-- automation.testsuite.HomeWork_day13 -->
+      </class> <!-- automation.testsuite.Day14_BTVN_ALADA_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
