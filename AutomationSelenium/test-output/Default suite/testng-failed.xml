@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Day14_BTVN_ALADA_Test">
+      <class name="automation.testsuite.Day15_TADA_UpdatePassword_Test">
         <methods>
-          <include name="EditPasswordFunction"/>
-          <include name="closeBrowser"/>
-          <include name="OpenBrowser"/>
+          <include name="searchKHoahoc"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- automation.testsuite.Day14_BTVN_ALADA_Test -->
+      </class> <!-- automation.testsuite.Day15_TADA_UpdatePassword_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

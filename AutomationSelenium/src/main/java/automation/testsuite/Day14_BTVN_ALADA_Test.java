@@ -31,7 +31,7 @@ public class Day14_BTVN_ALADA_Test extends CommonBase {
 	@BeforeMethod
 	public void OpenBrowser()
 	{		
-		driver = initFireFoxDriver(CT_PageURL.URL_ALADA_SIGNUP);
+		driver = initBrowser(CT_PageURL.URL_ALADA_SIGNUP);
 //		driver = initFireFoxDriver(CT_PageURL.URL_ALADA);
 	}
 	
