@@ -8,5 +8,8 @@ public class CT_PageURL {
 	public static String URL_CRMSTAR = "http://test-system.crmstar.vn/ ";
 	public static String URL_ALADA_SIGNUP="https://alada.vn/tai-khoan/dang-ky.html";
 	public static String URL_TADA="https://tedu.com.vn/dang-nhap.html";
+	public static String URL_ALERTDEMO="https://demo.automationtesting.in/Alerts.html";
+	public static String URL_SELENIUM="http://seleniumpractise.blogspot.com/2019/01/alert-demo.html";
+	public static String URL_DEMOGURU99="https://demo.guru99.com/test/delete_customer.php";
 
 }
