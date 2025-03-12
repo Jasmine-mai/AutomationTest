@@ -7,10 +7,10 @@ import automation.common.CommonBase;
 
 public class Day16_CRM_Star_QuanLyKVLV extends CommonBase {
 	private WebDriver driver;
-	public Day16_CRM_Star_QuanLyKVLV(WebDriver driver) {
-		this.driver = driver;
+	public Day16_CRM_Star_QuanLyKVLV(WebDriver commonBaseDriver) {
+		this.driver = commonBaseDriver;
 	}
-		public void loginFunction(String username, String pass, WebDriver driver)
+		public void loginFunction(String username, String pass)
 	{
 		type(By.id("email"), username);
 		type(By.id("password"), pass);
@@ -22,5 +22,6 @@ public class Day16_CRM_Star_QuanLyKVLV extends CommonBase {
 			type(By.name("work_areas_code"),maKLV);
 			type(By.name("name"),tenKLV);
 			click(By.xpath("//button[text()='Lưu']"));
+			click(By.xpath(""));
 		}
 }

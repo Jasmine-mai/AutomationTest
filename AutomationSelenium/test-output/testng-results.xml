@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-09T15:03:21 ICT" name="Default suite" finished-at="2025-03-09T15:03:37 ICT" duration-ms="15277">
+  <suite started-at="2025-03-12T21:01:04 ICT" name="Default suite" finished-at="2025-03-12T21:02:01 ICT" duration-ms="56597">
     <groups>
     </groups>
-    <test started-at="2025-03-09T15:03:21 ICT" name="Default test" finished-at="2025-03-09T15:03:37 ICT" duration-ms="15277">
-      <class name="automation.testsuite.Day16_Homework_Exercise3">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day16_Homework_Exercise3@c267ef4]" started-at="2025-03-09T15:03:21 ICT" name="openBrowser" finished-at="2025-03-09T15:03:32 ICT" duration-ms="11089" status="PASS">
+    <test started-at="2025-03-12T21:01:04 ICT" name="Default test" finished-at="2025-03-12T21:02:01 ICT" duration-ms="56597">
+      <class name="automation.testsuite.Day17_Homework_Mediamart">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day17_Homework_Mediamart@c267ef4]" started-at="2025-03-12T21:01:04 ICT" name="openBrowser" finished-at="2025-03-12T21:01:47 ICT" duration-ms="43221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifySucxessfully()[pri:0, instance:automation.testsuite.Day16_Homework_Exercise3@c267ef4]" started-at="2025-03-09T15:03:32 ICT" name="verifySucxessfully" finished-at="2025-03-09T15:03:36 ICT" duration-ms="4044" status="PASS">
+        <test-method signature="testZaloChat()[pri:0, instance:automation.testsuite.Day17_Homework_Mediamart@c267ef4]" started-at="2025-03-12T21:01:47 ICT" name="testZaloChat" finished-at="2025-03-12T21:02:00 ICT" duration-ms="12449" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySucxessfully -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day16_Homework_Exercise3@c267ef4]" started-at="2025-03-09T15:03:36 ICT" name="closeBrowser" finished-at="2025-03-09T15:03:37 ICT" duration-ms="127" status="PASS">
+        </test-method> <!-- testZaloChat -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day17_Homework_Mediamart@c267ef4]" started-at="2025-03-12T21:02:00 ICT" name="closeBrowser" finished-at="2025-03-12T21:02:01 ICT" duration-ms="913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- automation.testsuite.Day16_Homework_Exercise3 -->
+      </class> <!-- automation.testsuite.Day17_Homework_Mediamart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
