@@ -17,7 +17,7 @@ import org.openqa.selenium.TimeoutException;
 
 public class CommonBase {
 	 public  static WebDriver driver;
-	 private int pageLoadTimeout = 10;
+	 private int pageLoadTimeout = 40;
 	 
 	public  WebDriver initBrowser(String URL)
 	{

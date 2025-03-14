@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-12T21:01:04 ICT" name="Default suite" finished-at="2025-03-12T21:02:01 ICT" duration-ms="56597">
+  <suite started-at="2025-03-14T23:08:55 ICT" name="Default suite" finished-at="2025-03-14T23:09:13 ICT" duration-ms="17790">
     <groups>
     </groups>
-    <test started-at="2025-03-12T21:01:04 ICT" name="Default test" finished-at="2025-03-12T21:02:01 ICT" duration-ms="56597">
-      <class name="automation.testsuite.Day17_Homework_Mediamart">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day17_Homework_Mediamart@c267ef4]" started-at="2025-03-12T21:01:04 ICT" name="openBrowser" finished-at="2025-03-12T21:01:47 ICT" duration-ms="43221" status="PASS">
+    <test started-at="2025-03-14T23:08:55 ICT" name="Default test" finished-at="2025-03-14T23:09:13 ICT" duration-ms="17790">
+      <class name="automation.testsuite.Day16_CRMStar_QuanLyKVLV_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day16_CRMStar_QuanLyKVLV_Test@6a400542]" started-at="2025-03-14T23:08:55 ICT" name="openBrowser" finished-at="2025-03-14T23:09:06 ICT" duration-ms="10833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="testZaloChat()[pri:0, instance:automation.testsuite.Day17_Homework_Mediamart@c267ef4]" started-at="2025-03-12T21:01:47 ICT" name="testZaloChat" finished-at="2025-03-12T21:02:00 ICT" duration-ms="12449" status="PASS">
+        <test-method signature="themKLVThanhCong()[pri:1, instance:automation.testsuite.Day16_CRMStar_QuanLyKVLV_Test@6a400542]" started-at="2025-03-14T23:09:06 ICT" name="themKLVThanhCong" finished-at="2025-03-14T23:09:08 ICT" duration-ms="1918" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testZaloChat -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day17_Homework_Mediamart@c267ef4]" started-at="2025-03-12T21:02:00 ICT" name="closeBrowser" finished-at="2025-03-12T21:02:01 ICT" duration-ms="913" status="PASS">
+        </test-method> <!-- themKLVThanhCong -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day16_CRMStar_QuanLyKVLV_Test@6a400542]" started-at="2025-03-14T23:09:08 ICT" name="openBrowser" finished-at="2025-03-14T23:09:11 ICT" duration-ms="3291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- automation.testsuite.Day17_Homework_Mediamart -->
+        </test-method> <!-- openBrowser -->
+        <test-method signature="xoaKLVThanhCong()[pri:2, instance:automation.testsuite.Day16_CRMStar_QuanLyKVLV_Test@6a400542]" started-at="2025-03-14T23:09:11 ICT" name="xoaKLVThanhCong" finished-at="2025-03-14T23:09:13 ICT" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xoaKLVThanhCong -->
+      </class> <!-- automation.testsuite.Day16_CRMStar_QuanLyKVLV_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
