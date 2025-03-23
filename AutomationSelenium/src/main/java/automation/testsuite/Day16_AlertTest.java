@@ -13,9 +13,11 @@ import automation.constant.CT_PageURL;
 
 public class Day16_AlertTest extends CommonBase {
 	@BeforeMethod
-	public void openBrowser()
+	@Parameters("browserTestNG") 
+	public void openBrowser(@Optional("firefox") String browserTestNG)
 	{
-		driver = initFireFoxDriver(CT_PageURL.URL_ALERTDEMO);
+		driver = setupDriver(browserTestNG);
+		driver.get(CT_PageURL.URL_ALERTDEMO);
 	}
 	@Test
 	public void pressOkButton()

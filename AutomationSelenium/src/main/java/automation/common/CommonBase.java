@@ -4,6 +4,7 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -100,5 +101,55 @@ public class CommonBase {
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			js.executeScript("arguments[0].click();", element);
 		}
+		
+		private  WebDriver initBrowser()
+		{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver");
+			driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			return driver;
+		}
+		
+		private WebDriver initFireFoxDriver() 
+		{
+			System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir") + "\\driver\\geckodriver");
+			driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+			return driver;
+		}
+		private WebDriver initMSEdgeDriver() 
+		{
+			System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir") + "\\driver\\geckodriver");
+			driver = new EdgeDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+			return driver;
+		}
+		
+		public WebDriver setupDriver(String browserName)
+		{
+			switch(browserName.trim().toLowerCase()) {
+			case "chrome":
+				System.out.println("Initializing chrome browser test...");
+				driver = initBrowser();
+				break;
+			case "firefox":
+				System.out.println("Initializing firefox browser test...");
+				driver = initFireFoxDriver();
+				break;
+			case "edge":
+				System.out.println("Initializing MS edge browser test...");
+				driver = initMSEdgeDriver();
+				break;
+			default:
+				System.out.println("Invalid broswer test, choose chrome as default of choice....");
+				driver = initBrowser();
+				break;
+				}
+				return driver;
+			}
+		}
 	
-}
+
